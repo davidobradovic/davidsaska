@@ -1,0 +1,122 @@
+.centerfocuts {
+    display: grid;
+    place-items: center;
+    min-width: auto;
+    margin: 10px;
+    padding-bottom: 30px;
+}
+.checkoutproduct {
+    width: 500px; 
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin: 10px;
+}
+.firstdiv {
+    display: flex;
+    align-items: center;
+}
+.cpimage {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.cpimage img {
+    width: 100%;
+}
+
+.cptext {
+    margin-left: 10px;
+}
+
+.cptext h1 {
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.cptext h2 {
+    font-size: 14px;
+    font-weight: 800;
+    color: rgba(0,0,0,0.5);
+}
+
+.cpqty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+}
+
+.cpqty p {
+    margin: 0;
+}
+
+.cpqty p:first-child {
+    font-size: 13px;
+}
+
+.cpqty p:last-child {
+    font-size: 10px;
+}
+
+.checkoutform {
+    width: 100%;
+    margin: 10px;
+    display: grid;
+    place-items: center;
+}
+
+.formcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 500px;  
+    margin-bottom: 10px;
+}
+
+.formcontainer input, select, option {
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 10px;
+}
+
+.checkoutform button {
+    width: 500px; 
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    justify-content: center;
+}
+
+.maininfo {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.otherinfo {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+@media (max-width: 600px) {
+    .checkoutproduct {
+        width: 100%;
+    }
+    .formcontainer {
+        width: 100%;
+    }
+    .checkoutform button {
+        width: 100%;
+    }
+}

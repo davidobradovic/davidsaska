@@ -1,0 +1,128 @@
+.productdetailpage {
+    margin: 0;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 70px 0;
+    position: absolute;
+    top: 10%;
+}
+
+.pc-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pc-image .selectedimage {
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.smallimage {
+    width: 40px;
+    margin-right: 10px;
+    opacity: 0.5;
+    cursor: pointer;
+    pointer-events: all;
+    user-select: all;
+}
+
+.activesmallimage {
+    width: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    pointer-events: all;
+    user-select: all;
+}
+
+.pc-text {
+    width: 350px;
+    display: flex;
+    height: 320px;
+    flex-direction: column;
+    position: relative;
+}
+
+.pc-text h1,h3,p,a {
+    margin: 8px 0;
+    color: black;
+}
+
+.pc-text h1 {
+    font-size: 20px;
+}
+
+.pc-text h3 {
+    font-weight: 800;
+    color: rgba(0,0,0,0.5);
+}
+
+.pc-text a {
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #F9DDCF;
+    border: 3px solid black;
+    position: absolute;
+    bottom: 10px;
+    transition: all 0.33s ease-in-out;
+}
+
+.pc-text a:hover {
+    color: #F9DDCF;
+    background-color: black;
+}
+
+.quantity-container {
+    background-color: black;
+    color: #F9DDCF;
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5;
+    overflow: hidden;
+}
+
+.quantity-container button,#mrta {
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-container .minus .plus {
+    cursor:auto;
+    pointer-events: all;
+    
+}
+
+.quantity-container #mrta {
+    background-color: #222;
+    width: 35%;
+}

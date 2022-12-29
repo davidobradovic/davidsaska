@@ -1,0 +1,237 @@
+header {
+    background-color: #e8cec2;
+    padding-top: 30px;
+    height: 180px;
+}
+
+
+header .firstnav a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+header .firstnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+header .firstnav nav {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .firstnav nav a {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+header .firstnav nav span {
+    position: absolute;
+    font-size: 12px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 800;
+    border-radius: 50%;
+    background-color: #F9DDCF;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    top: 0;
+}
+
+header .firstnav img {
+    height: 70px;
+}
+
+header #navbuttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    background-color: #F9DDCF;
+    padding: 15px 0;
+    flex-wrap: wrap;
+}
+
+header #navbuttons a {
+    color: rgba(0,0,0, 1);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 20px 0 20px
+}
+
+@media (max-width: 400px) {
+    header #navbuttons a {
+        margin: 0 10px 0 10px;
+    }
+}
+
+.cartForm {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 280px;
+    width: 365px;
+    height: 100%;
+    height: 100%;
+    z-index: 99999;
+    background-color: white;
+    overflow: hidden;
+}
+
+.cartForm .navigatior {
+    font-size: 22px;
+    width: 100%;
+    height: 80px;
+    background-color: #F9DDCF;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.cartForm .navigatior a {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.cartForm .navigatior h1 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.cartForm .navigatior h1 #numitems {
+    font-weight: 800;
+}
+
+.emptybag {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.emptybag #icon {
+    font-size: 55px;
+}
+
+.emptybag h3 {
+    font-size: 15px;
+}
+
+.emptybag a {
+    background-color: #F9DDCF;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.cartproduct {
+    background-color: #e8cec2;
+    width: auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cartproduct .cpimage{
+    width: 70px;
+    height: 82px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.cartproduct .cpimage img {
+    height: 120%;
+}
+
+.cartproduct .cptext {
+    display: flex;
+    width: 265px;
+    height: 20px;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cartproduct .cptext h3 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cartproduct .cptext h5 {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.containercart {
+    display: flex;
+    flex-direction: column;
+    height: 77%;
+}
+
+.totalpricecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.totalpricecontainer h1 {
+    font-size: 18px;
+    font-weight: 600;
+    font-weight: 500;
+}
+
+.totalpricecontainer span {
+    font-weight: 800;
+}
+
+.checkoutbutton {
+    width: auto;
+    height: 70px;
+    border: 2px solid black;
+    background-color: #F9DDCF;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.checkoutbutton a {
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+
+@media (max-width: 425px) {
+    .cartForm {
+        width: 100%;
+        height: 100%;
+    }
+}

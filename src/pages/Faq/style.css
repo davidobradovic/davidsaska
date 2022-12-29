@@ -1,0 +1,71 @@
+.title {
+    text-align: center;
+    font-size: 26px;
+    margin: 20px 0;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+}
+.faqs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.faq {
+    width: 98%;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.faqdiv {
+    background-color: #e8cec2;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.divfirst {
+    min-width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.questionmark {
+    font-size: 25px;
+}
+
+.divsecond h1, p {
+    margin: 3px 0;
+}
+
+.divsecond {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divsecond h1{
+    font-size: 19px;
+}
+
+
+.answear {
+    font-size: 14px;
+    background-color: #eec9b8;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+@media (max-width: 630px) {
+    .divsecond p {
+        display: none;
+    }
+}
+
+@media (max-width: 545px) {
+    .divsecond h1 {
+        font-size: 16px;
+    }
+}

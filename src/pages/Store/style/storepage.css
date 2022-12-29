@@ -1,0 +1,72 @@
+.storetitle {
+    text-align: center;
+    margin: 15px 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+.storeproducts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.product {
+    width: 300px;
+    padding: 11px;
+    background-color: white;
+    margin: 15px 15px 15px 0;
+    height: 480px;
+    position: relative;
+}
+
+.productimage {
+    width: 100%;
+    height: 300px;
+    background-color: #F9DDCF;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productimage img {
+    width: 100%;
+    height: auto;
+}
+
+.producttext {
+    margin: 12px 0;
+}
+
+.producttext h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.producttext h4 {
+    color: rgba(0,0,0,0.5);
+    font-weight: 700;
+}
+
+.producttext p {
+    margin: 0;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.product a {
+    width: 93%;
+    height: 40px;
+    background-color: #F9DDCF;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
